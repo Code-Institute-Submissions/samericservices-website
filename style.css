@@ -1,0 +1,60 @@
+/*------------------------------------------------Header*/
+/*#019CDC light blue*/
+/*#E7E7E7 faint grey*/
+/*#2D59A8 sea blue*/
+
+
+.bg-white {
+    background-color: #fff;
+}
+
+.no-border {
+    border:0px solid !important;
+}
+
+.logo-padding{
+    padding-top: 5px;
+}
+
+.navbar-nav > li:hover{
+    background-color: #E7E7E7;
+    transition: all .3s ease-in-out;
+}
+
+.active-custom {
+    background-color: #2D59A8 !important;
+    color: white;
+}
+
+.active-custom a{
+    color: white !important;
+}
+
+/*------------------------------------------------Footer*/
+footer {
+    display: inline-block;
+    padding: 5px;
+}
+.contact-info li {
+    list-style: none;
+    padding: 8px;
+}
+
+.contact-info li i {
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.schemes li {
+    padding: 3px;
+}
+
+/*------------------------------------------------Section*/
+
+section {
+    background-color: #CDD6D5;
+}
+
+.learn-more {
+    background-color: #2D59A8
+}
