@@ -1,40 +1,48 @@
+/*index.html page*/
+
 /*------------------------------------------------Header*/
+
 /*#019CDC light blue*/
+
 /*#E7E7E7 faint grey*/
+
 /*#2D59A8 sea blue*/
 
+/*#303590 dark blue*/
 
 .bg-white {
     background-color: #fff;
 }
 
 .no-border {
-    border:0px solid !important;
+    border: 0px solid !important;
 }
 
-.logo-padding{
+.logo-padding {
     padding-top: 5px;
 }
 
-.navbar-nav > li:hover{
+.navbar-nav>li:hover {
     background-color: #E7E7E7;
     transition: all .3s ease-in-out;
 }
 
 .active-custom {
-    background-color: #2D59A8 !important;
+    background-color: #303590 !important;
     color: white;
 }
 
-.active-custom a{
+.active-custom a {
     color: white !important;
 }
 
 /*------------------------------------------------Footer*/
+
 footer {
     display: inline-block;
     padding: 5px;
 }
+
 .contact-info li {
     list-style: none;
     padding: 8px;
@@ -49,12 +57,172 @@ footer {
     padding: 3px;
 }
 
+.list-inline {
+    padding-left: 10px;
+}
+
 /*------------------------------------------------Section*/
 
 section {
-    background-color: #CDD6D5;
+    padding: 0 !important;
 }
 
 .learn-more {
-    background-color: #2D59A8
+    background-color: #303590;
+}
+
+/*------------------------------------------------Article*/
+
+article {
+    padding: 0 !important;
+}
+
+/*------------------------------------------------Slides
+
+.slider {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  overflow-x: auto;
+}
+.slide {
+  width: 300px;
+  flex-shrink: 0;
+  height: 100%;
+} */
+
+/*------------------------------------------------Body*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*------------------------------------------------Containers*/
+
+.callout-container {
+    height: 100vh;
+    background: url(/images/DSC_0022.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.benefits-container {
+    background-color: #EEF4F2;
+    text-align: center;
+    padding: 20px;
+}
+
+.benefits-container h1, h2 {
+    padding: 20px;
+    color: #415B76;
+}
+
+.benefits-container p {
+     color: #415B76;
+     padding-bottom: 20px;
+}
+
+.benefits-container list {
+    text-align: justify;
+}
+
+.benefits-container i {
+    font-size: 8em;
+}
+
+.easy-steps-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #EEF4F2;
+}
+
+
+.easy-steps-container i {
+    padding-top: 22px;
+    display: block;
+    color: #415B76;
+    font-size: 2em;
+    text-align: center;
+}
+
+.easy-steps-container h4 p {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #415B76;
+}
+
+.testimony-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #233656;
+}
+
+.testimony-container h4 {
+    font-weight: bold;
+    font-style: italic;
+    color: #EEF4F2;
+}
+
+.testimony-container p {
+    color: #EEF4F2;
+    font-style: italic;
+}
+
+/*------------------------------------------------Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.jumbotron p {
+    color: white;
+}
+
+/*------------------------------------------------ExtraStyling*/
+
+.fa-thumbs-up {
+    color: #415B76;
+}
+.easy-steps {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.easy-steps h4 {
+    font-weight: bold;
+    color: #415B76;
+}
+
+.easy-steps p {
+    color: #415B76;
+}
+
+.guarantee-list {
+    display: block;
+    list-style: none;
+}
+
+.guarantee-list li {
+    color: #415B76;
+}
+.guarantee-list li i {
+    display: inline-block;
+    font-size: 2em;
+    color: #1DFD05;
 }
