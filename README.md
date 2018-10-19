@@ -1,4 +1,4 @@
-a way i can improve my website you can make a much better slider using javascript
+a way i can improve my website you can make a much better slider using javascript to make slide shows automatic.
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 

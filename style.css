@@ -77,20 +77,6 @@ article {
     padding: 0 !important;
 }
 
-/*------------------------------------------------Slides
-
-.slider {
-  width: 300px;
-  height: 300px;
-  display: flex;
-  overflow-x: auto;
-}
-.slide {
-  width: 300px;
-  flex-shrink: 0;
-  height: 100%;
-} */
-
 /*------------------------------------------------Body*/
 
 body {
@@ -116,14 +102,15 @@ body {
     padding: 20px;
 }
 
-.benefits-container h1, h2 {
+.benefits-container h1,
+h2 {
     padding: 20px;
     color: #415B76;
 }
 
 .benefits-container p {
-     color: #415B76;
-     padding-bottom: 20px;
+    color: #415B76;
+    padding-bottom: 20px;
 }
 
 .benefits-container list {
@@ -198,6 +185,7 @@ body {
 .fa-thumbs-up {
     color: #415B76;
 }
+
 .easy-steps {
     display: inline-block;
     text-align: center;
@@ -221,8 +209,171 @@ body {
 .guarantee-list li {
     color: #415B76;
 }
+
 .guarantee-list li i {
     display: inline-block;
     font-size: 2em;
     color: #1DFD05;
 }
+
+/*landlord.html page*/
+
+.landlord-container {
+    text-align: center;
+    background-color: #233656
+}
+
+.landlord-container h1 {
+    font-weight: bold;
+    color: #EEF4F2;
+    font-style: italic;
+}
+
+.landlord-container span {
+    font-size: 2em;
+     color: #EEF4F2;
+    font-style: italic;
+}
+
+.landlord-container p {
+    padding: 10px;
+    color: #EEF4F2;
+}
+
+
+/*------------------------------------------------Text*/
+.bg-colour {
+    background-color: #EEF4F2;
+}
+.main h4 {
+    text-align: center;
+}
+
+.main h3,h4 {
+    text-align: center;
+    font-weight: bold;
+    color:  #415B76; 
+}
+.main p {
+    color:  #415B76;
+}
+/*------------------------------------------------Slides*/
+
+slider {
+    display: block;
+    width: 300px;
+    height: 300px;
+    background-color: #1f1f1f1;
+    overflow: hidden;
+    position: absolute;
+}
+
+slider > * {
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 300px;
+    background: #1f1f1f;
+    animation: slide 12s infinite;
+    overflow: hidden;
+}
+
+
+slide:nth-child(1) {
+    left: 0%;
+    animation-delay: -1s;
+    background-image: url(/images/DSC_0001.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(2) {
+    animation-delay: 2s;
+    background-image: url(/images/DSC_0006.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(3) {
+    animation-delay: 5s;
+    background-image: url(/images/DSC_0004.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+slide:nth-child(4) {
+    animation-delay: 8s;
+    background-image: url(/images/DSC_0005.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slides:nth-child(1) {
+    left: 0%;
+    animation-delay: -1s;
+    background-image: url(/images/DSC_0009.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slides:nth-child(2) {
+    animation-delay: 2s;
+    background-image: url(/images/DSC_0017.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slides:nth-child(3) {
+    animation-delay: 5s;
+    background-image: url(/images/DSC_0056.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slides:nth-child(4) {
+    animation-delay: 8s;
+    background-image: url(/images/DSC_0041.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slidey:nth-child(1) {
+    left: 0%;
+    animation-delay: -1s;
+    background-image: url(/images/20150515_181633.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slidey:nth-child(2) {
+    animation-delay: 2s;
+    background-image: url(/images/20150911_123713.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slidey:nth-child(3) {
+    animation-delay: 5s;
+    background-image: url(/images/20150911_122929.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slidey:nth-child(4) {
+    animation-delay: 8s;
+    background-image: url(/images/20150911_122906.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes slide {
+    0% {left: 100%; width: 100%;}
+    5% {left: 0%;}
+    25%{ left: 0%;}
+    30% {left: -100%; width: 100%;}
+    30.0001% {left: -100%; width: 0%;}
+    100% {left: 100%; width: 0%;}
+}
+
+
+
