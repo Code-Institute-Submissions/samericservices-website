@@ -1,4 +1,3 @@
-/*index.html page*/
 
 /*------------------------------------------------Header*/
 
@@ -83,6 +82,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+/*index.html page*/
 /*------------------------------------------------Containers*/
 
 .callout-container {
@@ -156,11 +157,11 @@ h2 {
 .testimony-container h4 {
     font-weight: bold;
     font-style: italic;
-    color: #EEF4F2;
+    color: #fff;
 }
 
 .testimony-container p {
-    color: #EEF4F2;
+    color: #fff;
     font-style: italic;
 }
 
@@ -216,8 +217,10 @@ h2 {
     color: #1DFD05;
 }
 
-/*landlord.html page*/
 
+
+/*landlord.html page*/
+/*------------------------------------------------Contianers*/
 .landlord-container {
     text-align: center;
     background-color: #233656
@@ -225,13 +228,13 @@ h2 {
 
 .landlord-container h1 {
     font-weight: bold;
-    color: #EEF4F2;
+    color: #fff;
     font-style: italic;
 }
 
 .landlord-container span {
     font-size: 2em;
-     color: #EEF4F2;
+     color: #fff;
     font-style: italic;
 }
 
@@ -325,7 +328,7 @@ slide:nth-child(4) {
 
 .slides:nth-child(3) {
     animation-delay: 5s;
-    background-image: url(/images/DSC_0056.jpg);
+    background-image: url(/images/DSC_0057.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -374,6 +377,69 @@ slide:nth-child(4) {
     30.0001% {left: -100%; width: 0%;}
     100% {left: 100%; width: 0%;}
 }
+
+
+
+/*howitworks.html page*/
+/*------------------------------------------------Containers*/
+
+#instructions-container {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(/images/DSC_0055.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.tenants-container {
+    background-color: #EEF4F2;
+    padding-bottom: 30px;
+}
+
+.tenants-container h2, p {
+    color: #415B76;
+}
+
+
+.process-container {
+    background-color: #233656;
+}
+
+.process-container h2 {
+    color: #fff;
+}
+
+.process-container li {
+    padding: 10px;
+    color: #fff;
+}
+
+
+/*------------------------------------------------Instructionboxes*/
+.instructions {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.instructions i {
+    color: #019CDC; 
+    padding-top: 10px;
+    font-size: 5em;
+}
+
+.instructions h2, h3 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.instructions span {
+    color: #019CDC;
+}
+
+
 
 
 
