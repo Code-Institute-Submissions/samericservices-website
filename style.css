@@ -1,37 +1,68 @@
 /*------------------------------------------------Header*/
-
-/*#019CDC light blue*/
-
-/*#E7E7E7 faint grey*/
-
-/*#2D59A8 sea blue*/
-
-/*#303590 dark blue*/
-
-.bg-white {
+.navDefault {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
     background-color: #fff;
 }
 
-.no-border {
-    border: 0px solid !important;
+button {
+    position:relative;
+    z-index:3;
+    border: none;
+    background-image: url(/images/Ericmordi02.jpg);
+    background-size: 100%;
+    width: 150px;
+    height: 80px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
-.logo-padding {
-    padding-top: 5px;
+.dropdownMenu{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+    z-index: 1;         /* in order to place menu behind the button in the third dimension */
+    width: 150px;
+    text-align: center;
+    transform: translateY(-100%);           /* in order to hide menue out of screen in prep for dropdown list */
+    transition: transform .5s ease-in-out    /* in order for menue to ease back into webpage */
 }
 
-.navbar-nav>li:hover {
-    background-color: #E7E7E7;
-    transition: all .3s ease-in-out;
+.dropdownLink {
+    text-decoration: none;
+    
+    display: block;
+    background-color:  #EEF4F2;
+    color:  #4a4a4f;
+    padding: 10px 5px;
+    transition: background-color .5s ease-in-out, color .5s;
 }
 
-.active-custom {
-    background-color: #303590 !important;
-    color: white;
+.dropdownLink:hover {
+    color: #fff;
+    background-color: #233656;
 }
 
-.active-custom a {
-    color: white !important;
+.dropdown {                     /* made a new div in order to style entire list */
+    width: 150px;
+    position: relative;
+}
+
+.dropdown:hover button {                /* buttton will be highlighted when hovered over */
+    background-color: #018ec5;
+}
+
+.dropdown:hover .dropdownMenu {
+    transform: translateY(0)
 }
 
 /*------------------------------------------------Footer*/
@@ -566,7 +597,7 @@ h3 {
 /*------------------------------------------------Form*/
 .center-form {
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 40%;
 }
 
 input[type=text] {
@@ -617,8 +648,8 @@ button[type="submit"] {
 }
 
 
-/*------------------------------------------------MediaQueries*/
-/*@media only screen and (max-width: 600px) {
+/*------------------------------------------------MediaQueries
+@media only screen and (max-width: 600px) {
     .forms-container {
    height: 100vh;
     background: url(/images/contactus.jpg) no-repeat center center fixed; 
@@ -631,5 +662,72 @@ button[type="submit"] {
     padding-right: 10px;
 }
     
+}*/
+/*
+.navDefault {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #fff;
 }
 
+button {
+    border: none;
+    background-image: url(/images/Ericmordi02.jpg);
+    background-size: 100%;
+    width: 150px;
+    height: 80px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.dropdownMenu{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 80px;
+    z-index: -1;         /* in order to place menu behind the button in the third dimension */
+    /*width: 150px;
+    text-align: center;
+    transform: translateY(-100%);           /* in order to hide menue out of screen in prep for dropdown list */
+    /*transition: transform .5s ease-in-out    /* in order for menue to ease back into webpage *//*
+}
+
+.dropdown h1 {
+    float: left;
+}
+
+.dropdownLink {
+    text-decoration: none;
+    
+    display: block;
+    background-color:  #EEF4F2;
+    color:  #4a4a4f;
+    padding: 10px 5px;
+    transition: background-color .5s ease-in-out, color .5s;
+}
+
+.dropdownLink:hover {
+    color: #fff;
+    background-color: #233656;
+}
+
+.dropdown {                     /* made a new div in order to style entire list *//*
+    width: 150px;
+    position: relative;
+}
+
+.dropdown:hover button {                /* buttton will be highlighted when hovered over *//*
+    background-color: #018ec5;
+}
+
+.dropdown:hover .dropdownMenu {
+    transform: translateY(0)
+}
