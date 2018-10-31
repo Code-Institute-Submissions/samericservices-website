@@ -516,8 +516,8 @@ h3 {
 .faqs-container {
     background-color: #EEF4F2;
     border: 50px solid #233656;
-    padding: 30px;
-    margin: 30px;
+    padding: 20px;
+    margin: 20px;
 }
 
 .faqs-container i {
@@ -576,7 +576,7 @@ h3 {
 }*/
 
 #forms-container {
-    background: url(/images/contactus.jpg) no-repeat center center fixed; 
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/contactus.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
