@@ -14,17 +14,29 @@ I have created a simple easy to read website clearly outlining the service we of
 In the future as the business grows I intend to add an investors page and a blog in order to highlight our success and also a paltform for investors to also purchase and sell property.
 
 #### User Stories 
--A Landlord wants to know more about the rent to rent model so can visit our how it works page for a complete breakdown
--A potential client wants to see examples of properties we have taken on and refurbished they can visit the Lanlord page and look at the slide show.
--A client wants to register there interest of enquire on an offer the can visit the contact us page and fill in the form.
--A client wants to have a think with there partner or family member and wants to take some literature to show them they can download our letter to landlords on the 
+- A Landlord wants to know more about the rent to rent model so can visit our how it works page for a complete breakdown
+- A potential client wants to see examples of properties we have taken on and refurbished they can visit the Lanlord page and look at the slide show.
+- A client wants to register there interest of enquire on an offer the can visit the contact us page and fill in the form.
+- A client wants to have a think with there partner or family member and wants to take some literature to show them they can download our letter to landlords on the 
 contact us page.
 
 #### Wireframes 
 
 
 ### Features
-- Header - I used CSS and HMTL to create a dropdown menu in order for clients to navigate through the website.
+- Header - I used  primarily CSS to create a dropdown menu in order for clients to navigate through the website.
 - Home page- I used the jumbotron feature to emphasize our slogan so that veiwers are drawn in.
-- landlord page - I used the slider tag and keyframes in order to create a slide show of refurbished properties so that potential clients can see what we can do.
-- howitworks page - I used the icons tag to visually represent the process of how it works so the veiwer does get board of reading loads of text.
+- Landlord page - I used the slider tag and keyframes in order to create a slide show of refurbished properties so that potential clients can see what we can do.
+- Howitworks page - I used the icons tag to visually represent the process of how it works so the veiwer does get board of reading loads of text.
+- Faqs page - I used borders padding and margins to make the center-text stand out and keep consistent with the theme of the website. I also used a mediaQuery in order to thin the the styling and maintain a good responsive look on smaller screens.
+- Contactus page - Used a form in order for user to imput details to build our client database and assist people with the management of there home.
+
+
+### Features left to implement 
+The use of Javascript will enable a better slide that will cache and load faster and a dropdown navigation bar would look better and will be the features I will implement when website is updated 
+Also, as the business grows I will add links to our social media and youtube accounts once they are created
+
+
+### Technologies used
+####HTML - https://html.com/ - I used HTML for the structure of my website as it is the best language to do so
+####CSS - I used CSS to style and customise the website to give it a bespoke look and user friendly theme and feel 
