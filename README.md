@@ -38,5 +38,11 @@ Also, as the business grows I will add links to our social media and youtube acc
 
 
 ### Technologies used
-####HTML - https://html.com/ - I used HTML for the structure of my website as it is the best language to do so
-####CSS - I used CSS to style and customise the website to give it a bespoke look and user friendly theme and feel 
+####HTML -https://html.com/ - I used HTML for the structure of my website as it is the best language to do so
+####CSS -https://css-tricks.com/ - I used CSS to style and customise the website to give it a bespoke look and user friendly theme and feel 
+####bootstrap -https://getbootstrap.com/docs/3.3/ - I usded bootstrap framework to develop responsive, mobile first website
+
+
+### Testing 
+In order to make sure website functions well I opened it on the main webrowswers: Google Chrome, Internet explorer, Firefox and safari and they all show a good responsive website with the fastest to load being chrome and the slowest being firefox.
+I do think in order to create a better user experience Javascript should be used to create better slide and a faster page but will be sufficent for the task at hand and a basic website that assists Landlords and managing there property.
