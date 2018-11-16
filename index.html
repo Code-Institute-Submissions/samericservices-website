@@ -7,28 +7,37 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/style.css" type="text/css" />
   <meta name="viewport" content="width=device-width, initial-scale-1">
 </head>
 
 <body>
-  <header class="container-fluid">
-    <nav class="navDefault">
-        <div class="dropdown row col-sm-4">
-            <button><a href="index.html"></a></button>
-        
-            <ul class="dropdownMenu">
-                <li class="dropdownItem"><a href="index.html" class="dropdownLink">Home</a></li>
-                <li class="dropdownItem"><a href="landlord.html" class="dropdownLink">Landlord</a></li>
-                <li class="dropdownItem"><a href="howitworks.html" class="dropdownLink">How It Works</a></li>
-                <li class="dropdownItem"><a href="faqs.html" class="dropdownLink">FAQ's</a></li>
-                <li class="dropdownItem"><a href="contactus.html" class="dropdownLink">Contact Us</a></li>
-            </ul>
+ <header>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+          <a class="navbar-brand" href="/">
+  <img src="/images/samerislogo.jpg" style="display: inline-block;" width="150%"> 
+</a>
         </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active-page"><a href="/" class="menuitem">Home</a></li>
+            <li><a href="landlord.html" class="menuitem">Landlord</a></li>
+            <li><a href="howitworks.html" class="menuitem">How It Works</a></li>
+            <li><a href="faqs.html" class="menuitem">FAQs</a></li>
+            <li><a href="contactus.html" class="menuitem">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
-  <section class="container-fluid">
+  <div class="container-fluid">
     <div id="callout-container">
       <div class="jumbotron text-center">
         <h1 class="jumbotron-header">Managing Properties Properly</h1>
@@ -36,18 +45,27 @@
         <p><a class="btn btn-primary  learn-more" href="#" role="button">Find out more</a></p>
       </div>
     </div>
-  </section>
+  </div>
+  <section class="homepage">
   <article class="container-fluid">
     <div class="row benefits-container">
+      <div class="col-sm-4">
       <h1>Benefit from our expertise</h1>
-      <p>We work closely with a number of companies within the area in order to house their employees and with the imminent arrival of the Westfield shopping centre in Croydon we have a growing number of working professionals looking for accommodation. Our
-        promise is to our clients is to provide their key members of staff with high-quality accommodation, within London, whenever they need it. Our promise to the landlord is to guarantee their rental income for the duration of our contract</p>
+      </div>
+      <div class="col-sm-4">
+        <p>We work closely with a number of companies within the area in order to house their employees and with the imminent arrival of the Westfield shopping centre in Croydon we have a growing number of working professionals looking for accommodation. Our
+        promise is to our clients is to provide their key members of staff with high-quality accommodation, within London, whenever they need it. Our promise to the landlord is to guarantee their rental income for the duration of our contract </p>
+        </div>
+        <div class="col-sm-4">
+        <p>We aim to give the landlord a hands and hassle free experience by allocating our trusted HMO manager to handle the day to day running of the property. You will not even need to worry about rent collection. we absolutely guarantee the rent 365 days a year and add value if need be to get the property to the standard our clients expect from us.</p>
+    </div>
+    </div>
     
-    <h2>Rent with us and secure your property investment! We GUARANTEE...</h2>
+    <h2 class="gurantee">Rent with us and secure your property investment! We GUARANTEE...</h2>
     <aside class="col-md-4"><i class="far fa-thumbs-up"></i>
     </aside>
     <div class="col-md-8">
-      <ul class="guarantee-list">
+      <ul class="guarantee-list clearfix">
       <li><i class="fas fa-check"></i>Adding value to the property If needed by providing a light refurbishment</li>
       <li><i class="fas fa-check"></i>Never having any more hassle dealing with troublesome tenants as we only house professionals</li>
       <li><i class="fas fa-check"></i>No void periods, 0% commission & no fees</li>
@@ -58,34 +76,35 @@
     </div>
 
     <div class="row easy-steps-container">
-      <h2 class="text-center">Three Easy Steps</h2>
-      <div class="col-12 col-md-4 easy-steps">
+      <h2 class="text-center capitalize">It just takes three simple steps</h2>
+      <div class="col-12 col-sm-4 easy-steps">
         <i class="fas fa-dice-one"></i>
         <h4>Free valuation</h4>
         <P>Tell us about your property by completing the form on our 'Contact Us' page so we can provide you with an accurate rent valuation</P>
       </div>
-      <div class="col-12 col-md-4 easy-steps">
+      <div class="col-12 col-sm-4 easy-steps">
         <i class="fas fa-dice-two"></i>
         <h4>Review our offer</h4>
         <p>One of our property experts will visit your property and present you with an unbeatable offer, at a time that suits your schedule</p>
       </div>
-      <div class="col-12 col-md-4 easy-steps">
+      <div class="col-12 col-sm-4 easy-steps">
         <i class="fas fa-dice-three"></i>
         <h4>Guaranteed rent</h4>
         <p>Sign our no-nonsense agreement and arrange the first of your guaranteed rent payments on the date of your choosing</p>
       </div>
     </div>
 
-    <div class="container-fluid testimony-container">
-      <div class="row">
-        <h4>Testomonials</h4>
-        <p>For years I have wanted to travel witht the family but was unable to do so as I still have to worry about mortgage repayments and maintanece of my property but now I can tavel the world with the peace of mind knowing my investment is safe - Martin
-          wright London</p>
-        <p>I was fed up with having to deal with problematic tenants aswell as struggling to find good tenants that will take care of the property so this has saved me a lot of time and a huge headache!- Mark and Alison London</p>
-        <p>I am free to do whatever I want knowing my rental income is guaranteed, Amazing!-Tom London</p>
-      </div>
-    </div>
+    <!--<div class="container-fluid testimony-container">-->
+    <!--  <div class="row">-->
+    <!--    <h4>Testomonials</h4>-->
+    <!--    <p>For years I have wanted to travel witht the family but was unable to do so as I still have to worry about mortgage repayments and maintanece of my property but now I can tavel the world with the peace of mind knowing my investment is safe - Martin-->
+    <!--      wright London</p>-->
+    <!--    <p>I was fed up with having to deal with problematic tenants aswell as struggling to find good tenants that will take care of the property so this has saved me a lot of time and a huge headache!- Mark and Alison London</p>-->
+    <!--    <p>I am free to do whatever I want knowing my rental income is guaranteed, Amazing!-Tom London</p>-->
+    <!--  </div>-->
+    <!--</div>-->
   </article>
+  </section>
   <footer class="container-fluid">
     <div class="row">
       <div class="col-xs-12 col-md-4">
@@ -105,7 +124,7 @@
           </li>
         </ul>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-4">
+      <div class="col-xs-12 col-sm-4">
         <h3 class="text-uppercase">Contacts</h3>
         <ul class="contact-info">
           <li><i class="far fa-envelope"></i>Email:info@samericservicesltd.co.uk</li>
@@ -118,6 +137,9 @@
       </details>
   </footer>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>

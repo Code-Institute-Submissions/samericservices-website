@@ -6,24 +6,35 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
   <link rel="stylesheet" href="/style.css" type="text/css" />
   <meta name="viewport" content="width=device-width, initial-scale-1">
 </head>
 
 <body>
-  <header class="container-fluid">
-    <nav class="navDefault">
-        <div class="dropdown row col-sm-4">
-            <button><a href="index.html"></a></button>
-        
-            <ul class="dropdownMenu">
-                <li class="dropdownItem"><a href="index.html" class="dropdownLink">Home</a></li>
-                <li class="dropdownItem"><a href="landlord.html" class="dropdownLink">Landlord</a></li>
-                <li class="dropdownItem"><a href="howitworks.html" class="dropdownLink">How It Works</a></li>
-                <li class="dropdownItem"><a href="faqs.html" class="dropdownLink">FAQ's</a></li>
-                <li class="dropdownItem"><a href="contactus.html" class="dropdownLink">Contact Us</a></li>
-            </ul>
+  <header>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+          <a class="navbar-brand" href="/">
+  <img src="/images/samerislogo.jpg" style="display: inline-block;" width="150%"> 
+</a>
         </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/" class="menuitem">Home</a></li>
+            <li class="active-page"><a href="landlord.html" class="menuitem">Landlord</a></li>
+            <li><a href="howitworks.html" class="menuitem">How It Works</a></li>
+            <li><a href="faqs.html" class="menuitem">FAQs</a></li>
+            <li><a href="contactus.html" class="menuitem">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
@@ -35,9 +46,6 @@
     <div class="col-sm-8">
       <span class="text-align-right">Our mission is to save you time and money!</span><br>
       <span class="text-align-right">Have a look at some of our Bespoke apartment refurbishments!</span>
-    </div>
-    <div class="row">
-      <p class="ll">We aim to give the landlord a hands and hassle free experience by allocating our trusted HMO manager to handle the day to day running of the property. You will not even need to worry about rent collection. we absolutely guarantee the rent 365 days a year and add value if need be to get the property to the standard our clients expect from us. </p>
     </div>
   </div>
         <div class="container-fluid row bg-colour">
@@ -51,10 +59,10 @@
         <p>There are no charges for setting the contract up, no tenant introduction fees, no commissions and absolutely no hidden extras to pay.</p>
     </div>
     <slider class="col-sm-5">
-      <slide><p>slide 1</p></slide>
-      <slide><p>slide 2</p></slide>
-      <slide><p>slide 3</p></slide>
-      <slide><p>slide 4</p></slide>
+      <slide></slide>
+      <slide></slide>
+      <slide></slide>
+      <slide></slide>
     </slider>
     <div class="col-sm-7 col-sm-push-5 main">
         <h3>Contract</h3>
@@ -66,10 +74,10 @@
       <p>In the very unlikely circumstance court action is required to evict a tenant or recover unpaid rent. With our Guaranteed Rent we will meet all the legal costs & manage the process whilst you continue to receive your rental payments.</p>
     </div>
        <slider class="col-sm-5 col-sm-pull-7">
-      <slide class="slides"><p>slide 1</p></slide>
-      <slide class="slides"><p>slide 2</p></slide>
-      <slide class="slides"><p>slide 3</p></slide>
-      <slide class="slides"><p>slide 4</p></slide>
+      <slide class="slides"></slide>
+      <slide class="slides"></slide>
+      <slide class="slides"></slide>
+      <slide class="slides"></slide>
     </slider>
     <div class="col-sm-7 main">
         <h3>Management</h3>
@@ -81,10 +89,10 @@
         <p>You won¹t be bothered at any time by the tenant residing in the property. No requests in the middle of the night to deal with a burst pipe or broken boiler! We deal with this for you.</p>
     </div>
    <slider class="col-sm-5">
-      <slide class="slidey"><p>slide 1</p></slide>
-      <slide class="slidey"><p>slide 2</p></slide>
-      <slide class="slidey"><p>slide 3</p></slide>
-      <slide class="slidey"><p>slide 4</p></slide>
+      <slide class="slidey"></slide>
+      <slide class="slidey"></slide>
+      <slide class="slidey"></slide>
+      <slide class="slidey"></slide>
     </slider>
     </div>
     </section>
@@ -123,6 +131,9 @@
       </details>
   </footer>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>

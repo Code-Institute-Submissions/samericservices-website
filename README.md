@@ -46,3 +46,4 @@ Also, as the business grows I will add links to our social media and youtube acc
 ### Testing 
 In order to make sure website functions well I opened it on the main webrowswers: Google Chrome, Internet explorer, Firefox and safari and they all show a good responsive website with the fastest to load being chrome and the slowest being firefox.
 I do think in order to create a better user experience Javascript should be used to create better slide and a faster page but will be sufficent for the task at hand and a basic website that assists Landlords and managing there property.
+

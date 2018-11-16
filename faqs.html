@@ -12,25 +12,35 @@
 </head>
 
 <body>
-  <header class="container-fluid">
-    <nav class="navDefault">
-        <div class="dropdown row col-sm-4">
-            <button><a href="index.html"></a></button>
-        
-            <ul class="dropdownMenu">
-                <li class="dropdownItem"><a href="index.html" class="dropdownLink">Home</a></li>
-                <li class="dropdownItem"><a href="landlord.html" class="dropdownLink">Landlord</a></li>
-                <li class="dropdownItem"><a href="howitworks.html" class="dropdownLink">How It Works</a></li>
-                <li class="dropdownItem"><a href="faqs.html" class="dropdownLink">FAQ's</a></li>
-                <li class="dropdownItem"><a href="contactus.html" class="dropdownLink">Contact Us</a></li>
-            </ul>
+ <header>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+          <a class="navbar-brand" href="/">
+  <img src="/images/samerislogo.jpg" style="display: inline-block;" width="150%"> 
+</a>
         </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/" class="menuitem">Home</a></li>
+            <li><a href="landlord.html" class="menuitem">Landlord</a></li>
+            <li><a href="howitworks.html" class="menuitem">How It Works</a></li>
+            <li class="active-page"><a href="faqs.html" class="menuitem">FAQs</a></li>
+            <li><a href="contactus.html" class="menuitem">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
   <section class="container-fluid">
     <div class="faqs-container">
       <h2 class="text-center">Frequently asked questions</h2>
-      <ul class="faqslist">
+      <ul class="list-inline clearfix faqslist">
       <li><i class="fas fa-question"></i>
       <h4>What is SAMERIC SERVICES responsible for?</h4>
       <p>We are responsible for paying you the set monthly rental fee each month. We fill the house with our professional tenants, we ensure all of the utilities and council tax are paid, we hire a cleaner and a gardener (where applicable) to watch over
@@ -105,6 +115,9 @@
       </details>
   </footer>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
