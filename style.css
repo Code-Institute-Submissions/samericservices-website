@@ -1,16 +1,15 @@
 /*------------------------------------------------Header*/
 /* Containers */
 
-.container-wrapper {}
 
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
 }
 
-.alert-container {}
 
-.callout-container {
+
+#callout-container {
     height: 100vh;
 
     background: url('../images/DSC_0022.jpg') no-repeat center center fixed;
@@ -68,6 +67,7 @@
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
+    color: white;
 }
 
 .navbar .navbar-brand {
@@ -122,6 +122,9 @@
     color: white;
 }
 
+.menuitem {
+    color: #fff;
+}
 /*------------------------------------------------Footer*/
 
 footer {
@@ -186,17 +189,17 @@ body {
 
 /*------------------------------------------------Containers*/
 
-#callout-container {
-    height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/DSC_0022.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    text-align: center;
-    margin-top: 50px;
-}
+/*#callout-container {*/
+/*    height: 100vh;*/
+/*    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/DSC_0022.jpg) no-repeat center center fixed;*/
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: cover;*/
+/*    display: flex;*/
+/*    text-align: center;*/
+/*    margin-top: 50px;*/
+/*}*/
 
 .homepage {
     background-color: #fff;
