@@ -1,32 +1,125 @@
 /*------------------------------------------------Header*/
+/* Containers */
+
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/DSC_0022.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Navbar */
+
 .navbar {
-    background-color: #fff;
-    border-color: #fff;
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .25);
+    border: 0;
 }
 
-.navbar-brand {
-    width: 15%;
-    padding: 0 0;
+.navbar-default .navbar-collapse {
+    color: #fff;
+    border-color: transparent;
 }
 
-#myNavbar {
-    background-color:  #fff;
+.navbar-default .navbar-toggle {
+    border: 0;
 }
 
-.active-page{
-    background-color: #233656 !important;
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
 }
 
-.menuitem:hover{
-    color: #fff !important;
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
 }
 
-.navbar-toggle {
-    background-color: #233656;
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: white;
 }
 
-.icon-bar {
-    background-color: #fff;
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.navbar-btn {
+    border: 0;
+    border-radius: 16px;
+    width: 100px;
+    background-color: #f05f40;
+    color: white;
+}
+
+.navbar-btn:hover {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
 }
 
 /*------------------------------------------------Footer*/
@@ -85,7 +178,7 @@ article {
 
 body {
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -101,12 +194,12 @@ body {
     -o-background-size: cover;
     background-size: cover;
     display: flex;
-    align-items: center;
+    text-align: center;
     margin-top: 50px;
 }
 
 .homepage {
-    background-color: #EEF4F2;
+    background-color: #fff;
 }
 
 .benefits-container {
@@ -189,10 +282,12 @@ h2 {
 .jumbotron h1 {
     color: white;
     font-weight: bold;
+    text-align: center;
     margin-bottom: 20px;
 }
 
 .jumbotron p {
+    text-align: center;
     color: white !important;
 }
 
@@ -224,7 +319,7 @@ h2 {
 }
 
 .gurantee {
-    background-color: #EEF4F2;
+    background-color: #fff;
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 0;
@@ -270,14 +365,14 @@ h2 {
 
 .landlord-container p {
     padding: 10px;
-    color: #EEF4F2 !important;
+    color: #fff !important;
 }
 
 
 /*------------------------------------------------Text*/
 
 .bg-colour {
-    background-color: #EEF4F2;
+    background-color: #fff;
 }
 
 .main h4 {
@@ -298,6 +393,10 @@ h2 {
 }
 
 /*------------------------------------------------Slides*/
+
+.slid {
+    margin-top: 70px;
+}
 
 slider {
     display: block;
@@ -448,7 +547,7 @@ slide:nth-child(4) {
 }
 
 .tenants-container {
-    background-color: #EEF4F2;
+    background-color: #fff;
     padding-bottom: 30px;
 }
 
@@ -501,7 +600,7 @@ p {
 /*faqs.html page*/
 /*------------------------------------------------Containers*/
 .faqs-container {
-    background-color: #EEF4F2;
+    background-color: #fff;
     border: 50px solid #233656;
     padding: 20px;
     margin: 20px;
@@ -546,7 +645,7 @@ p {
 /*------------------------------------------------MediaQueries*/
 @media only screen and (max-width: 600px) {
     .faqs-container {
-    background-color: #EEF4F2;
+    background-color: #fff;
     border: 25px solid #233656;
     padding: 15px;
     margin: 15px;
@@ -632,3 +731,5 @@ button[type="submit"] {
     padding: 18px;
     font-size: 20px;
 }
+
+update hover on nav menu so that text is not white when highlighted

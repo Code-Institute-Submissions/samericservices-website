@@ -1,81 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
 <head>
-  <title>tester page</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
-  <link rel="stylesheet" href="/style.css" type="text/css" />
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
-  <meta name="viewport" content="width=device-width, initial-scale-1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whiskey Drop | Taste a new whiskey every month</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-<header>
-    <nav class="navbar">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-          <a class="navbar-brand" href="/">
-  <img src="/images/Ericmordi01.jpg" style="display: inline-block;"> 
-</a>
+<body>  
+<nav class="navbar navbar-default">
+        <!--<div class="container-fluid alert-container hidden-xs">-->
+        <!--    <div class="row">-->
+        <!--        <div class="col-xs-12">-->
+        <!--            <div class="site-wide-alert alert alert-warning">-->
+        <!--                <strong>Sale Now On!</strong> We've got a sale on. Get a 12 month subscription for the price of 6! <a href="">See here for more details</a>-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--    </div>-->
+        <!--</div>-->
+
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!--<a href="/" class="navbar-brand">-->
+                <!--    Whiskey Drop-->
+                <!--</a>-->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="">About</a></li>
+                     <li><a href="landlord.html" class="menuitem">Landlord</a></li>
+            <li><a href="howitworks.html" class="menuitem">How It Works</a></li>
+            <li><a href="faqs.html" class="menuitem">FAQs</a></li>
+            <li><a href="contactus.html" class="menuitem">Contact Us</a></li>
+                </ul>
+
+               
+            </div>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active-page"><a href="/" class="menuitem">Home</a></li>
-            <li><a href="#" class="menuitem">Landlord</a></li>
-            <li><a href="#" class="menuitem">How It Works</a></li>
-            <li><a href="#" class="menuitem">FAQs</a></li>
-            <li><a href="#" class="menuitem">Contact Us</a></li>
-          </ul>
-        </div>
-      </div>
     </nav>
-  </header>
-    <section>
-       <div class="contact-bg-color container-fluid">
-         <h2 class="text-center">Contact Us</h2>
-         <div class="col-sm-6">
-        <div class="contact">
-            <span class="inline-block">
-            Download a copy of our Letter to landlords and read our testimonials to see what our clients have to say and get a summary of all the benefits we offer<a href="/letter/HMO Letter to Landlords sameric.docx" target="_blank" class="lettertolandlord">click here<i class="fas fa-download" aria-hidden="true"></i></a></span>
-             <span>To arrange a free no obligation offer or for any other questions or queries please contact us with a breif description of what you need and we will get back to you within 24hours<span>
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">&nbsp;</div>
+        <!-- Callout -->
+        <div class="row">
+            <div class="col-xs-12">
+                <section class="callout jumbotron text-center">
+                    <h1>Managing Properties Properly.</h1>
+                    <hr class='block-divider block-divider--primary'>
+                    <p class="lead">Guaranteed rental income for up to 3 years or more! No hassle, fees, voids or repair cost.</br><strong><mark>Receive a free no obligation offer this week!</mark></strong></p>
+                    <p><button class="btn btn-lg btn--cta btn--primary" data-toggle='modal' data-target='#signUpModal'>Sign Up!</button></p>
+                </section>
+            </div>
         </div>
-    </div>
-    
-    
-    <div class="col-sm-6" id="forms-container">
-        <div class="details">
-        <h2 class="contact-heading capitalize text-center">Get in touch!</h2>
-    <div class="center-form">
-        <form>
-            <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-            <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-            <input type="text" name="phonenumber" class="form-control" id="phonenumber" placeholder="Phone Number" required/>
-            <input type="text" name="propertyaddress" class="form-control" id="propertyaddress" placeholder="Property Address" required/>
-            <input type="text" name="postcode" class="form-control" id="postcode" placeholder="Postcode" required/>
-            <textarea rows="3" name "propertydescription" class="form-control" id="propertydescription" placeholder="Property Description" required></textarea>
-            <button type="submit" id="submit-contact" class="btn btn-secondary center-block">Send Request</button>
-        </form>
-    </div>
-    
-    
-    
-    </div>
-    </div>
-  </section>
+          <footer class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-md-4">
+        <h3 class="text-uppercase">about us</h3>
+        <p> We aim to be the leading property management company within Croydon and to utilise our growing list of perspective tenants by finding good accommodation to house them our aim is to support landlords looking to have a more hands off experience
+          and assist companies in safely housing their valued members of staff. Our specialism is to convert any property into a successful rental. We focus on shared apartments, providing high quality bespoke rooms and allocating a property manager to
+          each property to ensure the best service to our clients.
+        </p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <ul class="list-inline schemes">
+          <li><img src="/images/llas.png" alt="We are members of the London Landlord Association" width="100"></img>
+          </li>
+          <li><img src="/images/nla.jpg" alt="We are members of the National Landlord Association" width="100"></img>
+          </li>
+          <li><img src="/images/prs.jpg" alt="We are members of the Property Redress scheme" width="100"></img>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <h3 class="text-uppercase">Contacts</h3>
+        <ul class="contact-info">
+          <li><i class="far fa-envelope"></i>Email:info@samericservicesltd.co.uk</li>
+          <li><i class="fas fa-mobile-alt"></i>Phone:07432310923</li>
+          <li class="text-capitalize"><i class="fas fa-phone"></i>mobile:07808550965</li>
+        </ul>
+      </div>
+      <details class="col-xs-12 text-center">
+        <p>SAMERIC SERVICES is a registered company No:8891174 SAMERIC SERVICES LTD all rights reserved</p>
+      </details>
+  </footer>
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>-->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 
 </html>
