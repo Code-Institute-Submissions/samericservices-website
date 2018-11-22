@@ -352,18 +352,21 @@ h2 {
 .landlord-container {
     text-align: center;
     background-color: #233656;
+    padding: 10px;
 }
 
 .landlord-container h1 {
     font-weight: bold;
     color: #fff;
     font-style: italic;
+    padding-top: 35px;
 }
 
 .landlord-container span {
-    font-size: 2em;
+    font-size: 1em;
     color: #fff;
     font-style: italic;
+    padding-top: 50px;
 }
 
 .landlord-container p {
