@@ -1,6 +1,6 @@
 /*------------------------------------------------Header*/
-/* Containers */
 
+/* Containers */
 
 .container-wrapper--red {
     background-color: #f05f40;
@@ -11,8 +11,8 @@
 
 #callout-container {
     height: 100vh;
-
-    background: url('../images/DSC_0022.jpg') no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/DSC_0022.jpg) no-repeat center center fixed;
+    /*background: url('../images/DSC_0022.jpg') no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -55,6 +55,14 @@
 .navbar-default .navbar-collapse {
     color: #fff;
     border-color: transparent;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar-collapse li:hover {
+        background-color: #EEEEEE;
+        color: #415B76;
+    }
 }
 
 .navbar-default .navbar-toggle {
@@ -109,6 +117,10 @@
     color: white;
 }
 
+.icon-bar {
+    background-color: white;
+}
+
 /* Jumbotron */
 
 .jumbotron {
@@ -125,6 +137,8 @@
 .menuitem {
     color: #fff;
 }
+
+
 /*------------------------------------------------Footer*/
 
 footer {
@@ -190,15 +204,25 @@ body {
 /*------------------------------------------------Containers*/
 
 /*#callout-container {*/
+
 /*    height: 100vh;*/
+
 /*    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/DSC_0022.jpg) no-repeat center center fixed;*/
+
 /*    -webkit-background-size: cover;*/
+
 /*    -moz-background-size: cover;*/
+
 /*    -o-background-size: cover;*/
+
 /*    background-size: cover;*/
+
 /*    display: flex;*/
+
 /*    text-align: center;*/
+
 /*    margin-top: 50px;*/
+
 /*}*/
 
 .homepage {
@@ -594,6 +618,7 @@ p {
 .instructions h2 {
     color: #fff;
 }
+
 .instructions h3 {
     font-weight: bold;
     color: #019CDC;
@@ -604,7 +629,9 @@ p {
 }
 
 /*faqs.html page*/
+
 /*------------------------------------------------Containers*/
+
 .faqs-container {
     background-color: #fff;
     border: 50px solid #233656;
@@ -629,14 +656,19 @@ p {
     margin: 10px;
     font-weight: normal !important;
 }
+
 /*------------------------------------------------FurtherStyling*/
+
 .fa-question {
     margin-right: 10px;
 }
+
 .faqslist {
     list-style: none;
 }
-.directors h4, p {
+
+.directors h4,
+p {
     color: #233656 !important;
     display: block;
     font-weight: bold;
@@ -649,21 +681,24 @@ p {
 }
 
 /*------------------------------------------------MediaQueries*/
+
 @media only screen and (max-width: 600px) {
     .faqs-container {
-    background-color: #fff;
-    border: 25px solid #233656;
-    padding: 15px;
-    margin: 15px;
-}
+        background-color: #fff;
+        border: 25px solid #233656;
+        padding: 15px;
+        margin: 15px;
+    }
 
-.faqs-container ul {
-    padding-left: 0px;
-}
+    .faqs-container ul {
+        padding-left: 0px;
+    }
 }
 
 /*contactus.html page*/
+
 /*------------------------------------------------Containers*/
+
 #forms-container {
     margin: 0;
     background-color: #415B76;
@@ -675,12 +710,13 @@ p {
 }
 
 .details span {
-   font-weight: lighter;
-   font-size: 16px;
-    color: #D5D6D7 !important; 
+    font-weight: lighter;
+    font-size: 16px;
+    color: #D5D6D7 !important;
 }
 
 /*------------------------------------------------Form*/
+
 .center-form {
     margin: 0 auto;
     max-width: 60%;
@@ -701,15 +737,17 @@ input[type=text]:focus {
     border: 3px solid #555;
 }
 
-button[type="submit"] {                                               
+button[type="submit"] {
     margin-top: 5px;
     margin-bottom: 10px;
     background-color: #233656;
     color: #fafafa;
-} 
+}
+
 /*------------------------------------------------FurtherStyling*/
+
 .contact-bg-color {
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/contactus.jpg) no-repeat center center fixed; 
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/contactus.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -721,13 +759,15 @@ button[type="submit"] {
     color: #fff;
     font-weight: bold;
 }
+
 .contact {
     /*background-color: #233656;*/
-    padding:20px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
-.contact h2, span {
+.contact h2,
+span {
     display: block;
     text-align: center;
     color: #fff;
