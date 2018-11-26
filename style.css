@@ -347,9 +347,9 @@ h2 {
 
 .gurantee {
     background-color: #fff;
-    padding-top: 30px;
+    margin-top: 30px;
     padding-bottom: 30px;
-    margin: 0;
+    
 }
 
 .guarantee-list {
@@ -425,7 +425,7 @@ h2 {
 /*------------------------------------------------Slides*/
 
 .slid {
-    margin-top: 70px;
+    margin-top: 48px;
 }
 
 slider {

@@ -38,9 +38,10 @@ Also, as the business grows I will add links to our social media and youtube acc
 
 
 ### Technologies used
-####HTML -https://html.com/ - I used HTML for the structure of my website as it is the best language to do so
-####CSS -https://css-tricks.com/ - I used CSS to style and customise the website to give it a bespoke look and user friendly theme and feel 
-####bootstrap -https://getbootstrap.com/docs/3.3/ - I usded bootstrap framework to develop responsive, mobile first website
+#### HTML -https://html.com/ - I used HTML for the structure of my website as it is the best language to do so
+#### CSS -https://css-tricks.com/ - I used CSS to style and customise the website to give it a bespoke look and user friendly theme and feel 
+#### bootstrap -https://getbootstrap.com/docs/3.3/ - I usded bootstrap framework to develop responsive, mobile first website
+#### https://jquery.com/ I use jQuery to handle some of the functionality of the site
 
 
 ### Testing 
