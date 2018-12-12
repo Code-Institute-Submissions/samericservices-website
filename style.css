@@ -352,6 +352,10 @@ h2 {
     
 }
 
+.grant {
+    padding-top: 20px;
+}
+
 .guarantee-list {
     display: inline-block;
     list-style: none;
@@ -428,139 +432,20 @@ h2 {
     margin-top: 48px;
 }
 
-slider {
-    display: block;
+.slick-prev:before,
+.slick-next:before {
+    color: #415B76 !important;
+}
+
+
+.mySlick-slide {
+    background-size: cover !important;
+    background-position: center !important;
+    /*display: block;*/
     width: 300px;
     height: 300px;
-    background-color: #1f1f1f1;
-    overflow: hidden;
-    position: absolute;
-}
-
-slider>* {
-    position: absolute;
-    display: block;
-    width: 300px;
-    height: 300px;
-    background: #1f1f1f;
-    animation: slide 12s infinite;
     overflow: hidden;
 }
-
-
-slide:nth-child(1) {
-    left: 0%;
-    animation-delay: -1s;
-    background-image: url(/images/DSC_0001.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-slide:nth-child(2) {
-    animation-delay: 2s;
-    background-image: url(/images/DSC_0006.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-slide:nth-child(3) {
-    animation-delay: 5s;
-    background-image: url(/images/DSC_0004.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-slide:nth-child(4) {
-    animation-delay: 8s;
-    background-image: url(/images/DSC_0005.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.slides:nth-child(1) {
-    left: 0%;
-    animation-delay: -1s;
-    background-image: url(/images/DSC_0009.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.slides:nth-child(2) {
-    animation-delay: 2s;
-    background-image: url(/images/DSC_0017.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.slides:nth-child(3) {
-    animation-delay: 5s;
-    background-image: url(/images/DSC_0057.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.slides:nth-child(4) {
-    animation-delay: 8s;
-    background-image: url(/images/DSC_0041.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.slidey:nth-child(1) {
-    left: 0%;
-    animation-delay: -1s;
-    background-image: url(/images/20150515_181633.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.slidey:nth-child(2) {
-    animation-delay: 2s;
-    background-image: url(/images/20150911_123713.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.slidey:nth-child(3) {
-    animation-delay: 5s;
-    background-image: url(/images/20150911_122929.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.slidey:nth-child(4) {
-    animation-delay: 8s;
-    background-image: url(/images/20150911_122906.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-@keyframes slide {
-    0% {
-        left: 100%;
-        width: 100%;
-    }
-    5% {
-        left: 0%;
-    }
-    25% {
-        left: 0%;
-    }
-    30% {
-        left: -100%;
-        width: 100%;
-    }
-    30.0001% {
-        left: -100%;
-        width: 0%;
-    }
-    100% {
-        left: 100%;
-        width: 0%;
-    }
-}
-
-
 
 /*howitworks.html page*/
 
@@ -575,6 +460,14 @@ slide:nth-child(4) {
     display: flex;
     align-items: center;
 }
+
+.notes-container{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+
 
 .tenants-container {
     background-color: #fff;
@@ -620,11 +513,14 @@ p {
 }
 
 .instructions h3 {
+    text-shadow: 1px 1px black;
     font-weight: bold;
     color: #019CDC;
 }
 
 .instructions span {
+    text-shadow: 1px 1px black;
+    font-size: 1.2em;
     color: #fff;
 }
 
@@ -701,7 +597,7 @@ p {
 
 #forms-container {
     margin: 0;
-    background-color: #415B76;
+    background-color: #3E3A39;
 }
 
 .details h2 {
@@ -778,4 +674,4 @@ span {
     font-size: 20px;
 }
 
-update hover on nav menu so that text is not white when highlighted
+

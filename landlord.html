@@ -8,7 +8,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
   <link rel="stylesheet" href="/style.css" type="text/css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/images/slick-1.8.1/slick/slick.css" type="text/css" />
+  <link rel="stylesheet" href="/images/slick-1.8.1/slick/slick-theme.css" type="text/css"/>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
 </head>
 
 <body>
@@ -21,9 +24,6 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-          <!--          <a class="navbar-brand" href="/">-->
-          <!--  <img src="/images/samerislogo.jpg" style="display: inline-block;" width="150%"> -->
-          <!--</a>-->
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
@@ -46,7 +46,6 @@
       <div class="col-sm-8">
         <span class="text-align-right mission">Our mission is to save you time and money!
         Have a look at some of our Bespoke apartment refurbishments!</span>
-
       </div>
     </div>
     <div class="container-fluid row bg-colour">
@@ -60,10 +59,14 @@
         <p>There are no charges for setting the contract up, no tenant introduction fees, no commissions and absolutely no hidden extras to pay.</p>
       </div>
       <slider class="col-sm-5 slid">
-        <slide></slide>
-        <slide></slide>
-        <slide></slide>
-        <slide></slide>
+        <div class="mySlick">
+          
+          <div class="mySlick-slide" style="background:url(/images/DSC_0001.jpg)"></div>
+          <div class="mySlick-slide" style="background:url(/images/DSC_0006.jpg)"></div>
+          <div class="mySlick-slide" style="background:url(/images/DSC_0004.jpg)"></div>
+          <div class="mySlick-slide" style="background:url(/images/DSC_0005.jpg)"></div>
+        
+        </div>
       </slider>
       <div class="col-sm-7 col-sm-push-5 main">
         <h3>Contract</h3>
@@ -75,10 +78,14 @@
         <p>In the very unlikely circumstance court action is required to evict a tenant or recover unpaid rent. With our Guaranteed Rent we will meet all the legal costs & manage the process whilst you continue to receive your rental payments.</p>
       </div>
       <slider class="col-sm-5 col-sm-pull-7 slid">
-        <slide class="slides"></slide>
-        <slide class="slides"></slide>
-        <slide class="slides"></slide>
-        <slide class="slides"></slide>
+        <div class="mySlick">
+
+          <div class="mySlick-slide" style="background:url(/images/DSC_0009.jpg)"></div>
+          <div class="mySlick-slide" style="background:url(/images/DSC_0017.jpg)"></div>
+          <div class="mySlick-slide" style="background:url(/images/DSC_0057.jpg)"></div>
+          <div class="mySlick-slide" style="background:url(/images/DSC_0041.jpg)"></div>
+
+        </div>
       </slider>
       <div class="col-sm-7 main">
         <h3>Management</h3>
@@ -90,23 +97,23 @@
         <p>You won¹t be bothered at any time by the tenant residing in the property. No requests in the middle of the night to deal with a burst pipe or broken boiler! We deal with this for you.</p>
       </div>
       <slider class="col-sm-5 slid">
-        <slide class="slidey"></slide>
-        <slide class="slidey"></slide>
-        <slide class="slidey"></slide>
-        <slide class="slidey"></slide>
+        <div class="mySlick">
+          <div class="mySlick-slide" style="background:url(/images/20150515_181633.jpg)"></div>
+          <div class="mySlick-slide" style="background:url(/images/20150911_123713.jpg)"></div>
+          <div class="mySlick-slide" style="background:url(/images/DSC_0013.jpg)"></div>
+          <div class="mySlick-slide" style="background:url(/images/20150911_122906.jpg)"></div>
+        </div>
       </slider>
     </div>
   </section>
-
-
-
+  
   <footer class="container-fluid">
     <div class="row">
       <div class="col-xs-12 col-md-4">
         <h3 class="text-uppercase">about us</h3>
-        <p class="text-center">Our goal is to be the leading property management company within Croydon and to utilise our growing list of perspective tenants by finding good accommodation to house them our aim is to support landlords looking to have a more hands off experience
-          and assist companies in safely housing their valued members of staff. Our specialism is to convert any property into a successful rental. We focus on shared apartments, providing high quality bespoke rooms and allocating a property manager to
-          each property to ensure the best service to our clients.
+        <p class="text-center">We are a innovative property management company that utilises our growing list of perspective tenants by finding good accommodation to house them.
+        we aim is to support landlords looking to have a more hands off experience and assist companies in safely housing their valued members of staff.Our specialism is to convert any property into a successful rental.We focus on shared apartments, providing high quality bespoke rooms and allocating a property manager to
+        each property to ensure the best service to our clients.
         </p>
       </div>
       <div class="col-xs-12 col-sm-6 col-md-4">
@@ -134,6 +141,15 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/images/slick-1.8.1/slick/slick.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.mySlick').slick({
+        arrows: true,
+        dots: true,
+      });
+    });
+  </script>
 </body>
 
 </html>
