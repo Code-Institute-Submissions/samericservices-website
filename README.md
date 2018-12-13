@@ -2,13 +2,13 @@
 
 
 ### Purpose
-I always aim to keep my code clean and simple and by using HTML, CSS and a little bit of jQuery I have updated and amended our original website to make it responsive and more attractive for potential clients.
+I always aim to keep my code clean and simple and by using HTML, CSS and jQuery I have updated and amended our original website to make it responsive and more attractive for potential clients.
 I run a small family property management business and created a quick website using wix in order to outline what we do and a means for clients to know where to go to contact us however it was a very generic website.
 the purpose of this website is to create an updated and bespoke version of the original site for clients to be able to sign up if they are interested in what we have to offer aswell as keep updated on what we have going on.
 
 
 ### UX
-This website for Landlord that want to maximise there property investment without having to worry about the day to day maangement and maintenece of there property.
+This website for Landlord that want to maximise there property investment without having to worry about the day to day mangement and maintenece of there property.
 Any Landlord that has had to deal with tenant complaints or poor service from letting agents will benefit greatly through what we do and helping them is what we hope to achieve.
 I have created a simple easy to read website clearly outlining the service we offer, how to get in contact to arrange an offer or for any other property questions or queries.
 In the future as the business grows I intend to add an investors page and a blog in order to highlight our success and also a paltform for investors to also purchase and sell property.
@@ -95,9 +95,9 @@ all pictures where either taken or collected by myself aswell as the letter to l
 
 ### Acknowledgments
 
-The main goal for this project was for me to be able to use everything i have learned to create a new and improved website that is more user friendly, bespoke and most importantly as unique as the service we provide.
-I believe i acheived that goal thanks to various feedback. and would like to thank my mentor as well as the codeinstitut/learnig peopleteam for alll the help and support.
-https://www.w3schools.com/ was a huge help whenever I was stuck and also https://slack.com/downloads/windows aloud me to share problems with other devlopers that could advise me on how I can improve my site and also https://stackoverflow.com/ forum was a huge help.
+The main goal for this project was for me to be able to use everything I have learned to create a new and improved website that is more user friendly, bespoke and most importantly as unique as the service we provide.
+I believe I acheived that goal thanks to various feedback. and would like to thank my mentor as well as the codeinstitut/learnig peopleteam for all the help and support.
+https://www.w3schools.com/ was a huge help whenever I was stuck and also https://slack.com/downloads/windows enabled me to share problems with other devlopers that could advise me on how I can improve my site and also https://stackoverflow.com/ forum was a huge help.
 
 
 
