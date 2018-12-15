@@ -10,7 +10,7 @@
 
 
 #callout-container {
-    height: 100vh;
+    height: 100vh;              /* set the vh to 100 in order for the background image to full screen also set rgba to 0,0,0,0.3 in order to dim the image to make text stand out*/
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/DSC_0022.jpg) no-repeat center center fixed;
     /*background: url('../images/DSC_0022.jpg') no-repeat center center fixed;*/
     -webkit-background-size: cover;
@@ -41,8 +41,8 @@
 
 /* Navbar */
 
-.navbar {
-    margin-bottom: 0;
+.navbar {                                  /* I used navbar from previous whiskey drop excersie and customised it for the purpose of my website */
+    margin-bottom: 0;                      /* I used a media query to make navbar responsive so tha is will collape on smaller screen for a better more simple look*/    
     position: absolute;
     top: 0;
     left: 0;
@@ -202,28 +202,6 @@ body {
 /*index.html page*/
 
 /*------------------------------------------------Containers*/
-
-/*#callout-container {*/
-
-/*    height: 100vh;*/
-
-/*    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/images/DSC_0022.jpg) no-repeat center center fixed;*/
-
-/*    -webkit-background-size: cover;*/
-
-/*    -moz-background-size: cover;*/
-
-/*    -o-background-size: cover;*/
-
-/*    background-size: cover;*/
-
-/*    display: flex;*/
-
-/*    text-align: center;*/
-
-/*    margin-top: 50px;*/
-
-/*}*/
 
 .homepage {
     background-color: #fff;
@@ -432,7 +410,7 @@ h2 {
     margin-top: 48px;
 }
 
-.slick-prev:before,
+.slick-prev:before,                                     /*I used slick to create a good slider carousel and implemented jqery to make it work properl*/
 .slick-next:before {
     color: #415B76 !important;
 }
@@ -462,8 +440,8 @@ h2 {
 }
 
 .notes-container{
-    width: 100%;
-    text-align: center;
+    width: 90%;
+    text-align: left;
     margin: auto;
 }
 
@@ -616,7 +594,7 @@ p {
 .center-form {
     margin: 0 auto;
     max-width: 60%;
-}
+}                                            /*I used the forms code from w3schools as a template and customised it in order to fit my websites purpose*/
 
 input[type=text] {
     width: 100%;
