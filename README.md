@@ -8,15 +8,15 @@ the purpose of this website is to create an updated and bespoke version of the o
 
 
 ### UX
-This website for Landlord that want to maximise there property investment without having to worry about the day to day mangement and maintenece of there property.
+This website is for Landlords that want to maximise there property investment without having to worry about the day to day mangement and maintenece of there property.
 Any Landlord that has had to deal with tenant complaints or poor service from letting agents will benefit greatly through what we do and helping them is what we hope to achieve.
-I have created a simple easy to read website clearly outlining the service we offer, how to get in contact to arrange an offer or for any other property questions or queries.
+I have created a simple easy to read website clearly outlining the service we offer, how to get in contact to arrange an offer or for any other property related questions or queries.
 In the future as the business grows I intend to add an investors page and a blog in order to highlight our success and also a paltform for investors to also purchase and sell property.
 
 #### User Stories 
 - A Landlord wants to know more about the rent to rent model so can visit our how it works page for a complete breakdown
 - A potential client wants to see examples of properties we have taken on and refurbished they can visit the Lanlord page and look at the slide show.
-- A client wants to register there interest of enquire on an offer the can visit the contact us page and fill in the form.
+- A client wants to register there interest or enquire on an offer they can visit the contact us page and fill in the form.
 - A client wants to have a think with there partner or family member and wants to take some literature to show them they can download our letter to landlords on the 
 contact us page.
 
@@ -25,7 +25,7 @@ see all .html.jpg files for wireframes
 
 
 ### Features
-- Header - I used  primarily jQuery andCSS to create a dropdown menu in order for clients to navigate through the website.
+- Header - I used  primarily jQuery and CSS to create a navbar menu in order for clients to navigate through the website.
 - Home page- I used the jumbotron feature to emphasize our slogan so that veiwers are drawn in.
 - Landlord page - I used slick in order to create a slide show of refurbished properties so that potential clients can see what we can do.
 - Howitworks page - I used the icons tag to visually represent the process of how it works so the veiwer does get board of reading loads of text.
@@ -87,7 +87,7 @@ the main website I used as a template was my initial website created with wix as
 https://www.samericservicesltd.co.uk/ all of my text was taken from here.
 
 I also looked at other property management websites and recreated little pieces that I thought looked good https://www.latitude-living.com/
-https://www.damacproperties.com/uk/dubai-properties/ and https://www.streetsahead.info/renting/. these sites mainly gave me a ood idea of the structure of a propety website.
+https://www.damacproperties.com/uk/dubai-properties/ and https://www.streetsahead.info/renting/. these sites mainly gave me a good idea of the structure of a propety website.
 
 #### Media
 
