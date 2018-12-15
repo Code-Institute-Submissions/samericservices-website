@@ -89,6 +89,7 @@ https://www.samericservicesltd.co.uk/ all of my text was taken from here.
 I also looked at other property management websites and recreated little pieces that I thought looked good https://www.latitude-living.com/
 https://www.damacproperties.com/uk/dubai-properties/ and https://www.streetsahead.info/renting/. these sites mainly gave me a good idea of the structure of a propety website.
 
+
 #### Media
 
 all pictures where either taken or collected by myself aswell as the letter to landlords downlaod being a letter created by me.
